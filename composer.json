@@ -1,0 +1,18 @@
+{
+    "name": "jn/music",
+    "authors": [
+        {
+            "name": "Tillmann Weimer",
+            "email": "tillmann1970@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Models\\": "app/Models",
+            "App\\Views\\": "app/views"
+        }
+    }
+}
